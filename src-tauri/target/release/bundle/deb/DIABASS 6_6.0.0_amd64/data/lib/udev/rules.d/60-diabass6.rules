@@ -1,0 +1,4 @@
+# Let logged-in users open common USB-serial bridges used by glucose meter cables
+SUBSYSTEM=="tty", ENV{ID_BUS}=="usb", TAG+="uaccess", MODE="0666"
+# GlucoRx / TaiDoc meter cables use a Silicon Labs CP2110 HID-to-UART bridge (shows up as /dev/hidrawN)
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea80", TAG+="uaccess", MODE="0666"

@@ -1,0 +1,7 @@
+/home/matthew/Downloads/diabass6/src-tauri/target/release/deps/yoke_derive-2a762b03130ec993.d: /home/matthew/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-derive-0.8.4/src/lib.rs /home/matthew/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-derive-0.8.4/src/lifetimes.rs /home/matthew/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-derive-0.8.4/src/visitor.rs
+
+/home/matthew/Downloads/diabass6/src-tauri/target/release/deps/libyoke_derive-2a762b03130ec993.so: /home/matthew/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-derive-0.8.4/src/lib.rs /home/matthew/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-derive-0.8.4/src/lifetimes.rs /home/matthew/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-derive-0.8.4/src/visitor.rs
+
+/home/matthew/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-derive-0.8.4/src/lib.rs:
+/home/matthew/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-derive-0.8.4/src/lifetimes.rs:
+/home/matthew/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-derive-0.8.4/src/visitor.rs:

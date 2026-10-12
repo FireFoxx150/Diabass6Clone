@@ -1,0 +1,9 @@
+Package: diabass-6
+Version: 6.0.0
+Architecture: amd64
+Installed-Size: 6828
+Maintainer: diabass
+Priority: optional
+Depends: libwebkit2gtk-4.1-0, libgtk-3-0, libayatana-appindicator3-1, libwebkit2gtk-4.1-0, libgtk-3-0
+Description: Glucose meter data manager
+ Downloads every reading from a Glucose Rx HCT meter over USB, with charts, insulin and low-glucose logs, and a printable report for your clinician.

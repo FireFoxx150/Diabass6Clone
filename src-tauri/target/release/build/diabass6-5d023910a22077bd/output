@@ -1,0 +1,13 @@
+cargo:rerun-if-env-changed=TAURI_CONFIG
+cargo:rustc-check-cfg=cfg(desktop)
+cargo:rustc-cfg=desktop
+cargo:rustc-check-cfg=cfg(mobile)
+cargo:rerun-if-changed=/home/matthew/Downloads/diabass6/src-tauri/tauri.conf.json
+cargo:rerun-if-changed=/home/matthew/Downloads/diabass6/src-tauri/tauri.linux.conf.json
+cargo:rustc-env=TAURI_ANDROID_PACKAGE_NAME_APP_NAME=six
+cargo:rustc-env=TAURI_ANDROID_PACKAGE_NAME_PREFIX=com_diabass
+cargo:rustc-check-cfg=cfg(dev)
+cargo:PERMISSION_FILES_PATH=/home/matthew/Downloads/diabass6/src-tauri/target/release/build/diabass6-5d023910a22077bd/out/app-manifest/__app__-permission-files
+cargo:rerun-if-changed=/home/matthew/Downloads/diabass6/src-tauri/capabilities
+cargo:rerun-if-env-changed=REMOVE_UNUSED_COMMANDS
+cargo:rustc-env=TAURI_ENV_TARGET_TRIPLE=x86_64-unknown-linux-gnu

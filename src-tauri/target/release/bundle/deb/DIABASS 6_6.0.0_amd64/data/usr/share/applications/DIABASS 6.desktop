@@ -1,0 +1,9 @@
+[Desktop Entry]
+Categories=Utility;
+Comment=Glucose meter data manager
+Exec=diabass6
+StartupWMClass=diabass6
+Icon=diabass6
+Name=DIABASS 6
+Terminal=false
+Type=Application

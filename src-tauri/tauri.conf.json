@@ -1,0 +1,18 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "DIABASS 6",
+  "version": "6.0.0",
+  "identifier": "com.diabass.six",
+  "build": { "beforeDevCommand": "npm run dev", "devUrl": "http://localhost:1420", "beforeBuildCommand": "npm run build", "frontendDist": "../dist" },
+  "app": {
+    "windows": [{ "label": "main", "title": "DIABASS 6 — Glucose Rx HCT", "width": 1280, "height": 820, "minWidth": 900, "minHeight": 600 }],
+    "security": { "csp": null }
+  },
+  "bundle": {
+    "active": true,
+    "icon": ["icons/32x32.png", "icons/128x128.png", "icons/icon.ico", "icons/icon.png"],
+    "category": "Utility",
+    "shortDescription": "Glucose meter data manager",
+    "longDescription": "Downloads every reading from a Glucose Rx HCT meter over USB, with charts, insulin and low-glucose logs, and a printable report for your clinician."
+  }
+}
